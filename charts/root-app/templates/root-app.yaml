@@ -11,7 +11,7 @@ spec:
     path: charts/root-app/
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
+    server: https://localhost:8080
     namespace: default
   syncPolicy:
     automated:
